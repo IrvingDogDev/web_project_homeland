@@ -1,0 +1,33 @@
+.main {
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  max-width: 990px;
+  margin: 92px auto;
+}
+
+.content__title {
+  font-size: 54px;
+  max-width: 830px;
+  font-family: "Inter-Black", sans-serif;
+  line-height: 1;
+}
+
+.content__paragraph {
+  font-size: 24px;
+  max-width: 738px;
+  margin-bottom: 10px;
+}
+
+.content__paragraph_right {
+  text-align: right;
+  margin-right: 6px;
+}
+
+.content__paragraph_small {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 92px;
+}
