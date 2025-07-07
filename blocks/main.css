@@ -1,29 +1,29 @@
-.content {
+.main {
   display: flex;
   flex-direction: column;
   max-width: 990px;
   margin: 92px auto;
 }
 
-.content__title {
+.main__title {
   font-size: 54px;
   max-width: 830px;
   font-family: "Inter-Black", sans-serif;
   line-height: 1;
 }
 
-.content__paragraph {
+.main__paragraph {
   font-size: 24px;
   max-width: 738px;
   margin-bottom: 10px;
 }
 
-.content__paragraph_right {
+.main__paragraph_right {
   text-align: right;
   margin-right: 6px;
 }
 
-.content__paragraph_small {
+.main__paragraph_small {
   font-size: 16px;
   line-height: 1.6;
   margin-bottom: 92px;
@@ -35,7 +35,7 @@
     margin: 90px 24px 64px;
   }
 
-  .content__title {
+  .main__title {
     max-width: 710px;
     font-size: 45px;
     line-height: 0.8;
@@ -48,12 +48,12 @@
     margin: 16px;
   }
 
-  .content__title {
+  .main__title {
     font-size: 40px;
     line-height: 1;
   }
 
-  .content__paragraph {
+  .main__paragraph {
     line-height: 1.1;
   }
 }
